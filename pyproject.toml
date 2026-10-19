@@ -1,0 +1,43 @@
+[project]
+name = "knowledge-base"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "colorlog>=6.12.0",
+    "dashscope>=1.27.7",
+    "fastapi>=0.141.1",
+    "flagembedding>=1.4.2",
+    "grandalf>=0.8",
+    # 代码里 node_web_search_mcp 直接 import 并使用，必须显式声明。
+    # 它此前只是恰好被手工装进环境，换台机器 uv sync 后会在 import 阶段直接失败。
+    "httpx2>=2.13.1",
+    "langchain>=1.4.2",
+    "langchain-openai>=1.6.6",
+    "langchain-text-splitters>=1.1.2",
+    "langgraph>=1.2.12",
+    "minio>=7.2.20",
+    "modelscope>=1.40.1",
+    "numpy>=2.4.6",
+    "openai-agents>=0.23.1",
+    "pymilvus[model]>=3.0.2",
+    "pymongo>=4.18.2",
+    "python-dotenv>=1.2.3",
+    # 同上：node_pdf_to_md 上传 PDF 给 MinerU 时用的是 requests，不是传递依赖该背的锅
+    "requests>=2.34.2",
+    "torch>=2.14.1",
+    "torchaudio>=2.11.0",
+    "torchvision>=0.29.1",
+    "transformers>=5.18.0",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+# 只跑纯逻辑测试：不连 Milvus / MongoDB / MinIO，也不需要模型权重
+filterwarnings = ["ignore::DeprecationWarning"]

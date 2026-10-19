@@ -1,0 +1,20 @@
+{"id": "q01", "question": "HAK180 使用环境的温度和湿度要求是什么？", "answerable": true, "gold_all": ["10 °C", "80%"], "note": "环境要求，出处：## 设备（警告章节内）"}
+{"id": "q02", "question": "为什么不能撕掉设备上的警告标签？", "answerable": true, "gold_all": ["请勿撕下"], "note": "警告标签，出处：## 警告标签"}
+{"id": "q03", "question": "HAK180 需要什么规格的电源供电？", "answerable": true, "gold_all": ["220 V", "50/60 Hz"], "note": "电源规格，出处：## 电源线"}
+{"id": "q04", "question": "可以用湿手触摸电源插头吗？", "answerable": true, "gold_all": ["湿手"], "note": "触电风险，出处：## 电源线"}
+{"id": "q05", "question": "电源线磨损或损坏后还能继续使用吗？", "answerable": true, "gold_all": ["电源线磨损或损坏"], "note": "电源线损坏处置，出处：## 电源线"}
+{"id": "q06", "question": "搬运 HAK180 时应该怎么拿才安全？", "answerable": true, "gold_all": ["双手"], "note": "搬运方式，出处：## 为设备选择一个安全的位置"}
+{"id": "q07", "question": "设备不能放置在哪些地方？", "answerable": true, "gold_all": ["加热器"], "note": "禁忌摆放位置，出处：## 设备"}
+{"id": "q08", "question": "装有心脏起搏器的人使用这台设备要注意什么？", "answerable": true, "gold_all": ["起搏器"], "note": "弱磁场提示，出处：## 设备"}
+{"id": "q09", "question": "设备刚用完，可以马上打开前盖触摸内部零件吗？", "answerable": true, "gold_all": ["灰色标记"], "note": "烫伤风险，出处：## 设备"}
+{"id": "q10", "question": "可以使用非 Brother 品牌的烫金膜盒吗？", "answerable": true, "gold_all": ["正品烫金膜盒"], "note": "耗材兼容性，出处：## 设备（重要事项）"}
+{"id": "q11", "question": "自行拆解设备会有什么风险？", "answerable": true, "gold_all": ["请勿拆解"], "note": "拆解风险，出处：## 设备"}
+{"id": "q12", "question": "发生卡纸时可以继续使用设备吗？", "answerable": true, "gold_all": ["卡纸"], "note": "卡纸火灾风险，出处：## 设备"}
+{"id": "q13", "question": "设备出现异常高温或冒烟时该怎么办？", "answerable": true, "gold_all": ["冒烟"], "note": "紧急处置，出处：## 设备"}
+{"id": "q14", "question": "HAK180 含有哪些有害物质？", "answerable": true, "gold_all": ["多溴二苯醚"], "note": "有害物质表，出处：## 产品中有害物质的名称及含量"}
+{"id": "q15", "question": "不遵守安全说明会导致保修失效吗？", "answerable": true, "gold_all": ["保修"], "note": "保修条款，出处：## 设备保修和责任"}
+{"id": "q16", "question": "HAK180 的售价是多少？", "answerable": false, "gold_all": [], "note": "手册不含价格，应拒答"}
+{"id": "q17", "question": "HAK180 如何调节转印温度？", "answerable": false, "gold_all": [], "note": "手册不含温度调节步骤，应拒答"}
+{"id": "q18", "question": "HAK180 支持哪些纸张尺寸？", "answerable": false, "gold_all": [], "note": "安全手册不含规格参数，应拒答"}
+{"id": "q19", "question": "HAK180 的整机重量是多少？", "answerable": false, "gold_all": [], "note": "安全手册不含重量，应拒答"}
+{"id": "q20", "question": "如何更换烫金膜盒？", "answerable": false, "gold_all": [], "note": "手册只说参阅使用说明书，不含操作步骤，应拒答"}
