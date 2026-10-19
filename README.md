@@ -6,6 +6,9 @@
 > 典型场景：售后工程师问「H3C LA2608 网关上不了网怎么排查」，
 > 系统从产品手册里检索出对应章节，而不是让大模型凭记忆编。
 
+**[▶ 在线体验](https://kb-rag-demo.app.workbuddy.host/)** —— 不用装 Milvus / MongoDB，
+点开就能试检索效果。这是核心链路的轻量版（单文件、零依赖），与完整版的差异见 [demo/README.md](demo/README.md)。
+
 ---
 
 ## 一、技术栈
